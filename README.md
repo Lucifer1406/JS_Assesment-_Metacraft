@@ -17,7 +17,11 @@ To run this program, you can use Remix, an online Java Script Compiler. To get s
 Write your code on this website and run your code.
 
 ```javascript
+#Variable to Hold NFTs
 const NFTs = [];
+
+
+# Function to Mint NFTs: The mintNFT() function accepts four parameters (name, eyecolor, shirtType, bling), which represent the properties of the NFT.It creates an NFT object using the passed parameters.
 
 function mintNFT(name, eyecolor, shirtType, bling) {
   const NFT = {
@@ -30,6 +34,9 @@ function mintNFT(name, eyecolor, shirtType, bling) {
   console.log("Minted \t" + name);
 }
 
+#Function to List All NFTs: listNFTs() loops through the NFTs array, printing out each NFT's metadata.
+#For each NFT in the array, it logs the ID (which is the index + 1), and the metadata like name, eyecolor, shirtType, and bling.
+
 function listNFTs() {
   for (let i = 0; i < NFTs.length; i++) {
     console.log("\nID: \t\t" + (i + 1));
@@ -40,10 +47,13 @@ function listNFTs() {
   }
 }
 
+#Function to Get Total NFT Supply:getTotalSupply() logs the total number of NFTs that have been minted by printing the length of the NFTs array, which represents the total supply of NFTs
+
 function getTotalSupply() {
   console.log("\n", +NFTs.length);
 }
 
+#Minting and Listing NFTs: Four NFTs are minted with different metadata and stored in the NFTs array.
 
 mintNFT("Tushar", "black", "shirt full sleeve", " Gold bracelet");
 mintNFT("Deepesh", "grey", "Hoodie", "Gold chain");
