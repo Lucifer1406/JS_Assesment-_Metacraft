@@ -15,9 +15,9 @@ Write your code on this website and run your code.
 
 ### Executing program
 
-To run this program, you can use Remix, an online Java Script Compiler. To get started, go to the Remix website at [https://remix.ethereum.org/](https://www.programiz.com/javascript/online-compiler/).
-
-Write your code on this website and run your code.
+To run this program, you can use Gitpod Compiler. To get started, go to the Gitpod website at [https://remix.ethereum.org/](https://www.programiz.com/javascript/online-compiler/).
+Create your file. And Set up all confuguration.
+Write your code on this file and run your code.
 
 
 ###Variable to Hold NFTs
