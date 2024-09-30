@@ -9,8 +9,8 @@ This code represents a simple NFT system that mints unique digital assets with m
 This code defines a simple system for minting, storing, and listing NFTs (Non-Fungible Tokens) in JavaScript. Each NFT contains basic metadata like a name, eye color, shirt type, and bling, which are stored in an array. The program also includes functions to mint new NFTs, display their metadata, and print the total number of NFTs created.
 
 ## Getting Started
-To run this program, you can use an online Java Script Compiler. To get started, go to the Java Script Compiler on Programiz website at(https://www.programiz.com/javascript/online-compiler/).
-
+To run this program, you can use Gitpod . To get started, go to the Gitpod website at https://metacrafter-beginningja-qr8y122txo3.ws-us116.gitpod.io/
+Set up All configuration and create a js file.
 Write your code on this website and run your code.
 
 ### Executing program
